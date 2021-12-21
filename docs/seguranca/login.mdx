@@ -3,19 +3,62 @@ sidebar_position: 1
 custom_edit_url: null
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Login
 
 :::info
 Para realizar o login, primeiramente você precisará de um usuário ativo e uma senha, caso não possua, solicite do administrador do sistema.
 :::
 
-Para realizar o Login e conseguiar acessar as funcionalidade do sistema, você precisa:
+Para realizar o Login e conseguir acessar as funcionalidade do sistema, você precisa:
 
- <ol>
-    <li>Inserir o seu usuário no campo <strong>User</strong>;</li>
-    <li>Inserir sua senha no campo <strong>Password</strong>;</li>
-    <li>Clicar em <strong>Login</strong>;</li>
-    <li>O sistema validará seus dados, se estiverem corretos você conseguiará entrar, senão ele emitirá uma mensagem de erro.</li>
- </ol>
-
- Após realização e validação do login, se este for o seu primeiro acesso, o sistema lhe solicitará a renovação de senha. Neste etapa preencha a uma nova senha seguindo as regras, conforme figura abaixo.
+ <section className="container">
+    <div className="row">
+        <div className="col">
+            <ol>
+                <li>Inserir o seu usuário no campo <strong>User</strong>;</li>
+                <li>Inserir sua senha no campo <strong>Password</strong>;</li>
+                <li>Clicar em <strong>Login</strong>;</li>
+             </ol>
+            <figure>
+                <img src="/img/pg-login/login.gif" width="500"/>
+                <figcaption>Figura 1 - Realizando o Login.</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div className="row">
+        <div className="col">
+            <h3>Tratamentos importantes:</h3>
+            <Tabs>
+                <TabItem value="orange" label="Primeiro Acesso" default>
+                    Quando o usuário realizar o login pela perimeira vez e este ser validado com sucesso, o sistema solicitará do usuário a renovação da senha.
+                    <figure>
+                        <img src="/img/pg-login/primeiro-login.gif" width="300"/>
+                        <figcaption>Figura 2 - Primeiro acesso ao sistema.</figcaption>
+                    </figure>
+                </TabItem>
+                <TabItem value="apple" label="Campos Obrigatórios">
+                    Os campos de user e password são obrigatórios, caso o usuário não informe o botão de <strong>Login</strong> permanecerá desabilitado.
+                    <figure>
+                        <img src="/img/pg-login/campos-obrigatorios.gif"/>
+                        <figcaption>Figura 3 - Campos obrigatórios na tela de login.</figcaption>
+                    </figure>
+                </TabItem>
+                <TabItem value="banana" label="Usuário ou Senha errados">
+                    Quando o usuário ou a senha estiverem errados o sistema emitirá uma mensagem de erro, e não permitirá o acesso as modalidades do sistema.
+                    <figure>
+                        <img src="/img/pg-login/campos-obrigatorios.gif"/>
+                        <figcaption>Figura 3 - Usuário ou Senha inválidos.</figcaption>
+                    </figure>
+                </TabItem>
+            </Tabs>
+        </div>
+    </div>
+    <div className="row">
+        <div className="col">
+            Vídeo
+        </div>
+    </div>
+ </section>

@@ -21,3 +21,11 @@
   align-items: center;
   justify-content: center;
 }
+
+figure {
+  text-align: center;
+}
+figcaption {
+  font-size: 1.0rem;
+  font-style: italic;
+}

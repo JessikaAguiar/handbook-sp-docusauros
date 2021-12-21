@@ -23,9 +23,9 @@ export default function HomepageFeatures() {
                             <li>Controle de perfil</li>
                             <li>Registro do usuário</li>
                             <li>Log de eventos</li>
-                            <li>Controle de produto</li>
-                            <li>Cadastro de fornecedores</li>
-                            <li>Cadastro de clientes</li>
+                            <li>Controle de produtos</li>
+                            <li>Visualização de fornecedores</li>
+                            <li>Visualização de clientes</li>
                             <li>Controle de notas</li>
                             <li>Controle de endereçamento</li>
                             <li>Controle de filiais</li>
