@@ -1,0 +1,39 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+p {
+  text-indent: 3.5rem;
+}
+.centerImg {
+  text-align: center;
+  width: 40%;
+}
+
+.centerImg > figcaption {
+  font-size: 1.0rem;
+  font-style: italic;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.displayFlex > p {
+  padding-top: 5%;
+  width: 60%;
+}
+
+.marginTop {
+  padding-top: 10%;
+}
+
+.featureSvg {
+  height: 300px;
+  width: 650px;
+}
+
